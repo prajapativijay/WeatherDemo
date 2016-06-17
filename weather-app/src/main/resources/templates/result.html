@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Weather Application For City</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h3 th:inline="text"> [[${city}]]  - Weather</h3>
+	<h4>Date:</h4>
+	<p th:text="${date}" />
+	<h4>Description:</h4>
+	<p th:text="${discription}" />
+	<h4>Temperature in Fahrenheit :</h4>
+	<p th:text="${temperatureInFahrenheit}" />
+	<h4>Temperature in Celsius :</h4>
+	<p th:text="${temperatureInCelsius}" />
+	<h4>Sunrise:</h4>
+	<p th:text="${sunrise}" />
+	<h4>Sunset:</h4>
+	<p th:text="${sunset}" />
+</body>
+</html>

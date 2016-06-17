@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>Weather Application For City</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<form action="#" th:action="@{/}" th:object="${submit}" method="post">
+		<table>
+			<tr>
+				<td>City:</td>
+				<td><input type="text" th:field="*{city}" /></td>
+				<td th:if="${#fields.hasErrors('city')}" th:errors="*{city}">Title error message</td>
+			</tr>
+			<tr>
+				<td><button type="submit">Submit</button></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
