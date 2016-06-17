@@ -18,7 +18,9 @@ This is a Spring Boot application which contains tomcat as a embeded server.
 http://localhost:8080
 
 This application defaults to run on port 8080. By adding an application.properties file, you can override that setting.
+
 src/main/resources/application.properties
+
 server.port: 9000
 
 # Access RESTFul Services
