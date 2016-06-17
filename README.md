@@ -1,8 +1,9 @@
 # WeatherDemo
-Demo Application to get Weather Info of given City
+Demo Application to get basic Weather Information of given City
 
 # Git Repository
 git clone https://github.com/prajapativijay/WeatherDemo.git
+
 cd WeatherDemo
 
 # Build an executable JAR
